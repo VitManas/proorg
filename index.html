@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROORG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="color-verde">
+    <input id="close-menu" class="close-menu" type="checkbox"
+    aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu"
+    title="close menu"></label>
+    <aside class="menu">
+        <div class="main-content menu-content">
+        <h1> 
+            <a>PROORG</a>
+        </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#Home">INICIO</a></li>
+					<li><a href="#Servicos">SERVIÇOS</a></li>
+                    <li><a href="#Acoes">AÇÕES</a></li>
+                    <li><a href="#videos">VIDEOS</a></li>
+                    <li><a href="#galeria">NOSSOS PETS</a></li>
+                    <li><a href="#contact">FALE CONOSCO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    
+    <div class="menu-spacing"></div>
+
+    <section id = 'Home' class="intro color-verde section" >
+        <div class = 'main-content intro-content'>
+            <div class="intro-text-content">
+                <h2 >BEM VINDOS AO PROORG !!!</h2>
+                <p>Seu orgão de apoio a inumeros animais na sua região e tambem auxilio nas mais diversas procedencias.
+                </p>
+            </div>
+        </div>
+    </section>
+
+	<section id = "Servicos" class = "grid-one section-branca section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading ful">Nossos Serviços</h2>
+            <div class="grid gallery-img">
+                <div>
+                    <img src="media/acolhi.png" alt="">
+					<p>ACOLHIMENTO</p>
+                </div>
+                <div>
+                    <img src="media/banho.png" alt="">
+					<p>BANHO</p>
+                </div>
+                <div>
+                    <img src="media/cast.png" alt="">
+					<p>CASTRAÇÃO</p>
+                </div>
+				<div>
+                    <img src="media/odont.png" alt="">
+					<p>ODONTOLOGIA</p>
+                </div>
+                <div>
+                    <img src="media/tosa.png" alt="">
+					<p>TOSA</p>
+                </div>
+                <div>
+                    <img src="media/vaci.png" alt="">
+					<p>VACINAÇÃO</p>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <section id = 'Acoes' class=" section-sob section overlay" >
+                <div class = 'main-content control-content'>
+                    <div class='control-img'>
+                        <img src="media/banner.png" alt="">
+                    </div>
+                    <div class="control-text-content">
+                        <h2 >Nossas Ações</h2>
+                        <p>Nós da PROORG desenvolvemos ao longo do tempo
+							Ações que beneficiam a sociedade e ajuda a conscientizar
+							a população acerca da importancia da adoção com consciencia
+						</p>
+                        <p>Para isso criamos a campanha de adoção consciente que promove por meio de palestras
+							campanhas de adoções, auxilio para com os pets e tambem muito amor e carinho 
+							a conscietização e discernimento acerca da adoção e cuidados para com nossos bichanos
+						</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="videos" class="section section-videos">
+        <div class="main-content">
+            <h2>VÍDEOS</h2>
+            
+            <iframe width="560" height="315" src="media/uno.mp4" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="media/dos.mp4" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+
+			<iframe width="560" height="315" src="media/tres.mp4" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="media/quatro.mp4" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+
+        </div>
+    </section>
+
+    <section id = 'galeria' class=" section-sob section overlay" >
+        <div class = 'main-content control-content'>
+            
+            
+            <div class='control-img'>
+                <h2>Josué</h2>
+                <img src="media/img2.png" alt="">
+            </div>
+            <div class='control-img'>
+                <h2>Pietro</h2>
+                <img src="media/img3.png" alt="">
+            </div>
+            <p>Cachorro encontrado na rua, foi resgatada e hoje em dia adora brincar comer
+                dormir e ficar no jardim, um cachorro muito amavel
+            </p>
+            <p>Cachorro encontrado na rua, foi resgatada e hoje em dia adora brincar comer
+                dormir e ficar no jardim, um cachorro muito amavel
+            </p>
+        </div>
+    </section>
+
+    <section class="section-videos" >
+        <h2>⠀</h2>
+    </section>
+
+    <section id = 'contact' class="intro color-verde section" >
+        <form action = "" method="post">
+            <div class="contact-form main-content">
+                <fieldset class="form-grid">
+                    <h2 class="form-group full-width">Fale Conosco</h2>
+                    
+                    <div class="form-group">
+                        <label for="name"> Nome:</label>
+                        <input type="text" 
+                        name="name" 
+                        id="name"
+                        placeholder="Seu nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sobname"> Sobrenome:</label>
+                        <input type="text" 
+                        name="sobname" 
+                        id="sobname"
+                        placeholder="Seu Sobrenome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail:   
+                        </label>
+                        <input type="email" 
+                        name="email" 
+                        id="email"
+                        placeholder="Seu email">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem:
+                        </label>
+                        <textarea name="message" 
+                        id="message" cols="30"
+                        rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" action = >Enviar
+                        </button>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
